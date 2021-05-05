@@ -23,6 +23,7 @@ app.use(stylus.middleware(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public')));
 // To use installed bootstrap
 app.use("/bootstrap", express.static(path.join(__dirname, '/node_modules/bootstrap/dist')));
+app.use("/bootstrap-icons", express.static(path.join(__dirname, '/node_modules/bootstrap-icons')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
