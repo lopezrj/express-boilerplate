@@ -10,7 +10,6 @@ app.use("/bootstrap", express.static(path.join(__dirname, '/node_modules/bootstr
 ```
 With this alias, Boostrap stylesheets and javascript can be loaded using:
 ```
-
     link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
     script(src='/bootstrap/js/bootstrap.bundle.min.js')
 ```
