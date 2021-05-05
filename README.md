@@ -14,3 +14,7 @@ With this alias, Boostrap stylesheets and javascript can be loaded using:
     script(src='/bootstrap/js/bootstrap.bundle.min.js')
 ```
 
+Boostrap-icons are load using 
+```
+    link(rel="stylesheet", href="/bootstrap-icons/font/bootstrap-icons.css")
+```
