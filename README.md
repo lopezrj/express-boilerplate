@@ -8,7 +8,7 @@ It creates an alias for bootstrap in app.js
 ```
 app.use("/bootstrap", express.static(path.join(__dirname, '/node_modules/bootstrap/dist')));
 ```
-With this Boostrap stylesheets and javascript can be loaded using:
+With this alias, Boostrap stylesheets and javascript can be loaded using:
 ```
 
     link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
